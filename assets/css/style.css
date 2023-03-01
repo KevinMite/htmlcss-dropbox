@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 80px;
+    line-height: 80px;
+    position: sticky;
+    top: 0;
+}
+#menu-logo{
+    vertical-align: middle;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header nav ul li:not(#menu-logo):hover{
+    border-bottom: 1px solid black;
+}
+
+.btn{
+    padding: 6px;
+}
+
+.btn-blu{
+    background-color: blue;
+    color: white;
+}
