@@ -196,3 +196,36 @@ h2{
 .fa-check{
     color: blue;
 }
+
+.border{
+    border: 1px solid black;
+}
+
+#team{
+    margin: 3px 0;
+}
+
+.btn-full{
+    background-color: #2665FE;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    padding: 8px 0;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+}
+
+.btn-white{
+    border: 1px solid black;
+}
+
+.w-one-third{
+    flex-basis: 20%;
+}
+
+.w-two-third{
+    flex-basis: 70%;
+}
