@@ -246,7 +246,6 @@ img{
 .square-child{
     width: 50%;
     height: 50%;
-    border: 1px solid red;
     position: relative;
 }
 
@@ -300,4 +299,23 @@ img{
 
 .size-50{
     font-size: 50px;
+}
+
+.p-40{
+    padding: 40px;
+}
+.size-15{
+    font-size: 15px;
+}
+
+.width-40{
+    width: 40%;
+}
+
+.b-gray{
+    background-color: #F5F5F5;
+}
+
+.c-gray{
+    color: #424242;
 }
