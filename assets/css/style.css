@@ -372,3 +372,29 @@ img{
     transition: all 1s ease;
  }
 
+ footer{
+    background-color: black;
+    padding: 10px 0;
+    height: 300px;
+}
+
+footer #footer-top > div{
+    flex-basis: calc(60% / 4);
+}
+
+
+footer{
+    color: #E2E3E4;
+}
+
+
+.title5{
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.casella{
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
