@@ -72,6 +72,10 @@ h1{
     display: flex;
 }
 
+.align-items-center{
+    align-items: center;
+}
+
 .w-30{
     flex-basis: 30%;
 }
@@ -346,3 +350,25 @@ img{
  .flex-end{
     justify-content: flex-end;
  }
+
+ .domanda{
+    border-bottom: 1px solid black;
+ }
+
+ .risposta{
+    display: none;
+    height: 0%;
+ }
+
+.genitore:hover .risposta{
+    display: block;
+    height: 100%;
+    transition: all 1s ease;
+ }
+ 
+
+.genitore:hover .domanda i{
+    transform: rotate(180deg);
+    transition: all 1s ease;
+ }
+
