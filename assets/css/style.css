@@ -304,6 +304,10 @@ img{
 .p-40{
     padding: 40px;
 }
+.p-t-30{
+    padding-top: 30px;
+}
+
 .size-15{
     font-size: 15px;
 }
@@ -319,3 +323,26 @@ img{
 .c-gray{
     color: #424242;
 }
+
+ .w-100{
+    width: 100%;
+ }
+
+ .h-150{
+    height: 150px;
+ }
+
+ .b-celeste-chiaro{
+    background-color: #B3D0E7;
+ }
+ .b-white{
+    background-color: white;
+ }
+
+ .space-arround{
+    align-content: space-around;
+ }
+
+ .flex-end{
+    justify-content: flex-end;
+ }
